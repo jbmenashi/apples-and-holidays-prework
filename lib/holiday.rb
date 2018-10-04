@@ -64,6 +64,7 @@ def all_holidays_with_bbq(holiday_hash)
     if season.values.include?("BBQ")
       new_array << season
     end
+  end
     new_array
 
 end
